@@ -5,7 +5,7 @@ import { Navbar } from "./_components/navbar";
 
 const MarketingPage = () => {
   return (
-    <div className="min-g-full flex flex-col">
+    <div className="min-g-full flex flex-col dark: bg-[#1f1f1f]">
       <div className="flex flex-col items-center justify-center md:justify-start text-center gap-y-8 flex-1 px-6 pb-10">
         <Navbar />
         <Heading />
