@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/dialog";
 import { useCoverImage } from "@/hooks/use-cover-image";
 import { SingleImageDropzone } from "@/components/single-image-dropzone";
-import {  useEdgeStore } from "@/lib/edgestore";
+import { useEdgeStore } from "@/lib/edgestore";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
 
@@ -52,7 +52,6 @@ export const CoverImageModal = () => {
   }
 
   return (
-    
     <Dialog open={coverImage.isOpen} onOpenChange={coverImage.onClose}>
       <DialogContent>
         <DialogHeader>
@@ -68,6 +67,5 @@ export const CoverImageModal = () => {
         />
       </DialogContent>
     </Dialog>
-    
   );
 };

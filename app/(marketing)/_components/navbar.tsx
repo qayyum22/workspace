@@ -18,7 +18,7 @@ export const Navbar = () => {
 
   return (
     <div className={cn(
-      "z-50 bg-background dark:bg-[#1F1F1F] fixed top-0 flex items-center w-full p-6",
+      "z-[99999] bg-background dark:bg-[#1F1F1F] fixed top-0 flex items-center w-full p-6",
       scrolled && "border-b shadow-sm"
     )}>
       <Logo />
@@ -35,7 +35,7 @@ export const Navbar = () => {
             </SignInButton>
             <SignInButton mode="modal">
               <Button size="sm">
-                Get Jotion free
+                Get Workspace free
               </Button>
             </SignInButton>
           </>
@@ -44,7 +44,7 @@ export const Navbar = () => {
           <>
             <Button variant="ghost" size="sm" asChild>
               <Link href="/documents">
-                Enter Jotion
+                Enter workspace
               </Link>
             </Button>
             <UserButton

@@ -10,19 +10,19 @@ import { EdgeStoreProvider } from "@/lib/edgestore";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Qotion",
+  title: "SB Workspace",
   description: "The Connected workspace where better, faster work happens",
   icons: {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/logo.svg",
-        href: "/logo.svg",
+        url: "/logo.png",
+        href: "/logo.png",
       },
       {
-        media: "(prefers-color-scheme: light)",
-        url: "/logo-dark.svg",
-        href: "/logo-dark.svg",
+        media: "(prefers-color-scheme: dark)",
+        url: "/logo-dark.png",
+        href: "/logo-dark.png",
       },
     ],
   },
@@ -43,7 +43,7 @@ export default function RootLayout({
               defaultTheme="system"
               enableSystem
               disableTransitionOnChange
-              storageKey="qotion-theme-2"
+              storageKey="workspace-theme-2"
             >
               <Toaster position="bottom-center" />
               <ModalProvider />
